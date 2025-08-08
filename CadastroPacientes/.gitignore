@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Compilação
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Pacotes
+packages/
+*.nupkg
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Banco de dados local
+*.mdf
+*.ldf
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
