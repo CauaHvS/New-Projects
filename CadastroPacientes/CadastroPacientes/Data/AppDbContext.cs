@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using CadastroPacientes.Models;
+using PatientRegistration.Models;
 
-namespace CadastroPacientes.Data
+namespace PatientRegistration.Data
 {
     public class AppDbContext : DbContext
     {

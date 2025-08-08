@@ -1,4 +1,4 @@
-namespace CadastroPacientes.Models
+﻿namespace PatientRegistration.Models
 {
     public class ErrorViewModel
     {

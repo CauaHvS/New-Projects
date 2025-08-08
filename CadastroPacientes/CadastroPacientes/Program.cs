@@ -1,4 +1,4 @@
-using CadastroPacientes.Data;
+using PatientRegistration.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

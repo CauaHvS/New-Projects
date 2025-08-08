@@ -1,8 +1,8 @@
-using System.Diagnostics;
-using CadastroPacientes.Models;
+﻿using PatientRegistration.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
-namespace CadastroPacientes.Controllers
+namespace PatientRegistration.Controllers
 {
     public class HomeController : Controller
     {

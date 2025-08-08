@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CadastroPacientes.Migrations
+namespace PatientRegistration.Migrations
 {
     /// <inheritdoc />
     public partial class Inicial : Migration

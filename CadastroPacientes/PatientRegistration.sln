@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroPacientes", "CadastroPacientes\CadastroPacientes.csproj", "{B75D599D-5BB1-4B68-B6E9-EA8E161BF7D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientRegistration", "CadastroPacientes\PatientRegistration.csproj", "{B75D599D-5BB1-4B68-B6E9-EA8E161BF7D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CadastroPacientes.Models
+namespace PatientRegistration.Models
 {
     [Table("patients")]
     public class Patients
@@ -11,7 +11,7 @@ namespace CadastroPacientes.Models
 
         [Required]
         [StringLength(100)]
-        public string Nome { get; set; }
+        public required string Nome { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
@@ -20,15 +20,15 @@ namespace CadastroPacientes.Models
 
         [Required]
         [StringLength(11)]
-        public string CPF { get; set; }
+        public required string CPF { get; set; }
 
         [Required]
         [StringLength(14)]
-        public string PhoneNumber { get; set; }
+        public required string PhoneNumber { get; set; }
 
         [Required]
         [StringLength(100)]
         [EmailAddress]
-        public string Email { get; set; }
+        public required string Email { get; set; }
     }
 }
